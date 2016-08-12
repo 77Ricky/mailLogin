@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./cuaforPhone.css" />
+		<script type="text/javascript" src="./viewport.js"></script>
+		<title>中国联航邮箱登陆</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title"></div>
+			<div class="login-cell mgt">
+				<span class="login-text">邮件地址</span>
+				<span class="login-input-info"> 
+					<input type="text" id=""  placeholder="请输入邮箱地址" name="User"/>
+				</span>
+			</div>
+			<div class="login-cell">
+				<span class="login-text">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</span>
+				<span class="login-input-info"> 
+					<input type="password" name="Password" placeholder="*************"/>
+				</span>
+			</div>
+			<div class="login-cell">
+				<span class="login-text">验&nbsp;&nbsp;证&nbsp;&nbsp;码</span>
+				<div class="code-cell">
+					<span class="login-input-info changeW"> 
+						<input type="text" id="" placeholder="CUA01" name="mail"/>
+					</span>
+					<button class="code"></button>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+			<div class="login-cell">
+				<span class="login-text">语&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;言</span>
+				<span class="login-input-info"> 
+					<select name="Lang">
+						<option value=""></option>
+	                    <option value="en">English</option>
+	                    <option value="fc">Canadien français</option>
+	                    <option value="zh">中文</option>
+	                    <option value="da">Dansk</option>
+	                    <option value="de">Deutsch</option>
+	                    <option value="cs">Česky</option>
+	                    <option value="uk">English-UK</option>
+	                    <option value="es">Español</option>
+	                    <option value="fr">Français</option>
+	                    <option value="id">Bahasa Indonesia</option>
+	                    <option value="it">Italiano</option>
+	                    <option value="ja">日本語</option>
+	                    <option value="ko">한글</option>
+	                    <option value="hu">Magyar</option>
+	                    <option value="nl">Nederlands</option>
+	                    <option value="no">Norsk (bokmål)</option>
+	                    <option value="pl">Polski</option>
+	                    <option value="pt">Português</option>
+	                    <option value="ru">Русский</option>
+	                    <option value="fi">Suomi</option>
+	                    <option value="sv">Svenska</option>
+	                    <option value="tw">Taiwan</option>
+	                    <option value="sr">Srpski</option>
+	                    <option value="gr">Ελληνικά</option>
+	                    <option value="tr">Türkçe</option>
+	                    <option value="ro">Romana</option>
+	                    <option value="ar">العربية</option>
+	                    <option value="vi">Tiếng Việt</option>
+	                    <option value="th">ไทย</option>
+	                    <option value="ca">Català</option>
+	                </select>
+				</span>
+			</div>
+			<div class="login-cell">
+				<span class="login-text">方&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;案</span>
+				<span class="login-input-info"> 
+					<select name="Theme" id="Theme">
+	    				<option value=""></option>
+	                    <option>Lite</option>
+	                    <option>LookOut</option>
+	                    <option>Mobile</option>
+	                    <option>Standard</option>
+	                    <option>WorldClient</option>
+	    		    </select>
+				</span>
+			</div>
+			
+			<div class="help">
+				<a href="http://www.altn.com/Software/MDaemon-Webmail-WorldClient/">帮助</a>
+			</div>
+			<div class="login-cell mgl changeT">
+				<button class="login-btn" name="Logon" id="Logon">登&nbsp;&nbsp;&nbsp;陆</button>
+			</div>
+			<div class="error-text" id="statusMessage" style="display:none;">
+				<span>登录失败，请重试。</span><br/>
+				<span>如果您需要协助，请联系您的邮件管理员。</span>
+			</div>
+		</div>
+  	</body>
+</html>
