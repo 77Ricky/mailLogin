@@ -96,6 +96,7 @@ html{
     border-radius: 4px;
     border: none;
     outline:none;
+    background: #bcbcbc;
 }
 .help{
     float: right;

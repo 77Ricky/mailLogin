@@ -51,13 +51,14 @@ html{
 }
 .code{
     width: 1.8rem;
-    height: 0.6rem;
+    height: 0.56rem;
     display: block;
     float: left;
     margin-left: 0.1rem;
     border-radius: 4px;
     border: none;
     outline: none;
+    background: #bcbcbc;
 }
 .help{
     font-size: 0.24rem;
