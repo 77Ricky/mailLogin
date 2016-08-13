@@ -29,22 +29,21 @@ html{
     font-weight: 600;
 }
 .login-input-info{
-    border: 0.01rem solid #bcbcbc;
+    border: 0.02rem solid #bcbcbc;
     border-radius: 0.06rem;
     width: 100%;
-    height: 0.61rem;
+    height: 0.6rem;
     display: block;
 }
 .login-input-info input,.login-input-info select{
     width: 100%;
-    height: 0.5rem;
+    height: 0.56rem;
     display: block;
     outline: none;
     border: none;
-    line-height: 0.6rem;
+    line-height: 0.56rem;
     padding-left: 0.2rem;
-    padding-top: 0.1rem;
-    font-size:0.22rem;
+    font-size: 0.22rem;
 }
 .code-cell{
     width:100%;
