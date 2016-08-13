@@ -29,8 +29,7 @@ html{
     font-weight: 600;
 }
 .login-input-info{
-    border: 0.02rem solid #bcbcbc;
-    border-radius: 0.06rem;
+    
     width: 100%;
     height: 0.6rem;
     display: block;
@@ -44,6 +43,8 @@ html{
     line-height: 0.56rem;
     padding-left: 0.2rem;
     font-size: 0.22rem;
+    border: 0.02rem solid #bcbcbc;
+    border-radius: 0.06rem;
 }
 .code-cell{
     width:100%;
@@ -84,7 +85,6 @@ html{
     width: 5.5rem;
     height: 0.7rem;
     border-radius: 0.14rem;
-    margin-top: rem;
     font-size: 0.28rem;
 }
 .mgt{
