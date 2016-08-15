@@ -21,14 +21,15 @@ html{
     height: 66px;
     display: block;
     position: relative;
-    background: url(./title.png)no-repeat;
+    background: url(./title.png) no-repeat;
     background-size: 200px;
     top: 35px;
     margin: 0 auto;
 }
 .login-content{
 	width: 45%;
-	min-width:610px;  
+	min-width:610px; 
+    max-width:615px;  
     height: 60%;
     display: block;
     background-color: #fff;
